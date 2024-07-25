@@ -11,6 +11,7 @@ function Router() {
                 <Route path='/' element={<Home />} />
                 <Route path='/filter' element={<Filter />} />
                 <Route path='/details/:id' element={<Details />} />
+                <Route path='/details' element={<Details />} />
                
                 
             </Routes>
